@@ -17,4 +17,16 @@ The dataset consists of data about certain number of locations, their correspond
 Phase 3
 --------
 
-TBD
+In this phase we experiment with graphical analysis, indexing, classification and clustering.
+
+For this phase, we work only with the images of the dataset. We begin by representing the images in a graph with an image being connected to its k most similar images. We then implement confidence clustering and spectral clustering to find clusters in the graph. We implement PageRank and Personalized PageRank to search for similar images. We implement Locality Sensitive Hashing to build an index structure for retrieval of the images. Finally, we perform classification using k nearest neighbours and Personalized PageRank.
+
+
+Authors
+-------
+1. Abhyudaya Srinet
+2. Adhiraj Tikku
+3. Anjali Singh
+4. Darshan Dagly
+5. Laveena Sachdeva
+6. Vatsal Sodha
